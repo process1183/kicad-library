@@ -1,5 +1,7 @@
 # KiCad Library #
 
+[KiCad](https://kicad-pcb.org/) symbols for various components.
+
 ## Library Contents ##
 
 ### symbols ###
