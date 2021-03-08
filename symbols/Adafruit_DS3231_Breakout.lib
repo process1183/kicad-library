@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Adafruit_DS3231_Breakout
+#
+DEF Adafruit_DS3231_Breakout A 0 40 Y Y 1 F N
+F0 "A" -250 500 50 H V C CNN
+F1 "Adafruit_DS3231_Breakout" -600 -500 50 H V C CNN
+F2 "" -350 200 50 H I C CNN
+F3 "https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout?view=all" -1100 -900 50 H I L CNN
+F4 "https://github.com/process1183/kicad-library" -1100 -1050 50 H I L CNN "GitHub"
+F5 "https://www.adafruit.com/product/3013" -1100 -750 50 H I L CNN "Product URL"
+DRAW
+S -250 350 250 -350 0 1 0 f
+X Vin 1 -100 450 100 D 50 50 1 1 W
+X GND 2 0 -450 100 U 50 50 1 1 W
+X SCL 3 -350 50 100 R 50 50 1 1 I
+X SDA 4 -350 -50 100 R 50 50 1 1 B
+X BAT 5 100 450 100 D 50 50 1 1 w
+X 32k 6 350 -100 100 L 50 50 1 1 O
+X SQW 7 350 0 100 L 50 50 1 1 O
+X RST 8 350 100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
